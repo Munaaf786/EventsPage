@@ -1,6 +1,6 @@
-In this project, let's build an **Events** app by applying the concepts we have learned till now.
+In this project, I have built an **Events** app by applying the concepts I have learned till now.
 
-### Refer to the image below:
+### Output is as per the image below:
 
 <br/>
 <div style="text-align: center;">
@@ -32,15 +32,15 @@ In this project, let's build an **Events** app by applying the concepts we have 
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
-- Initially, the page should have the [No Active Event View](https://assets.ccbp.in/frontend/content/react-js/events-no-active-event-view-output.png)
-- When the image of an event item with `registrationStatus` as `YET_TO_REGISTER` is clicked, then the [Yet To Register View](https://assets.ccbp.in/frontend/content/react-js/events-yet-to-register-view-output.png) should be displayed
-- When the image of an event item with `registrationStatus` as `REGISTERED` is clicked, then the [Registered View](https://assets.ccbp.in/frontend/content/react-js/events-registered-view-output.png) should be displayed
-- When the image of an event item with `registrationStatus` as `REGISTRATIONS_CLOSED` is clicked, then the [Registrations Closed View](https://assets.ccbp.in/frontend/content/react-js/events-registrations-closed-view-output.png) should be displayed
+- Initially, the page has the [No Active Event View](https://assets.ccbp.in/frontend/content/react-js/events-no-active-event-view-output.png)
+- When the image of an event item with `registrationStatus` as `YET_TO_REGISTER` is clicked, then the [Yet To Register View](https://assets.ccbp.in/frontend/content/react-js/events-yet-to-register-view-output.png) is displayed
+- When the image of an event item with `registrationStatus` as `REGISTERED` is clicked, then the [Registered View](https://assets.ccbp.in/frontend/content/react-js/events-registered-view-output.png) is displayed
+- When the image of an event item with `registrationStatus` as `REGISTRATIONS_CLOSED` is clicked, then the [Registrations Closed View](https://assets.ccbp.in/frontend/content/react-js/events-registrations-closed-view-output.png) is displayed
 
 - The `Events` component is provided with `eventsList`. It consists of a list of event objects with the following properties in each event object
 
@@ -66,10 +66,10 @@ The app must have the following functionalities
 </details>
 
 <details>
-<summary>Implementation Files</summary>
+<summary>Implemented Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Used these files to complete the implementation:
 
 - `src/components/Events/index.js`
 - `src/components/Events/index.css`
@@ -79,27 +79,14 @@ Use these files to complete the implementation:
 - `src/components/ActiveEventRegistrationDetails/index.css`
 </details>
 
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The image for each event item should have alt attribute value as **event**
-
-</details>
-
 ### Resources
 
 <details>
 <summary>Image URLs</summary>
 
-- [https://assets.ccbp.in/frontend/react-js/events-register-img.png](https://assets.ccbp.in/frontend/react-js/events-register-img.png) alt should be **yet to register**
-- [https://assets.ccbp.in/frontend/react-js/events-regestered-img.png](https://assets.ccbp.in/frontend/react-js/events-regestered-img.png) alt should be **registered**
-- [https://assets.ccbp.in/frontend/react-js/events-registrations-closed-img.png](https://assets.ccbp.in/frontend/react-js/events-registrations-closed-img.png) alt should be **registrations closed**
+- [https://assets.ccbp.in/frontend/react-js/events-register-img.png](https://assets.ccbp.in/frontend/react-js/events-register-img.png) alt value is **yet to register**
+- [https://assets.ccbp.in/frontend/react-js/events-regestered-img.png](https://assets.ccbp.in/frontend/react-js/events-regestered-img.png) alt value is **registered**
+- [https://assets.ccbp.in/frontend/react-js/events-registrations-closed-img.png](https://assets.ccbp.in/frontend/react-js/events-registrations-closed-img.png) alt value is **registrations closed**
 
 </details>
 
@@ -126,9 +113,6 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+## Conclusion
+
+🚀 The Events App dynamically updates the UI based on user interactions, showcasing React.js skills like state management, props handling, and component-based design. 🎯 With an intuitive layout and smooth experience, With a clean design and seamless functionality, it delivers an engaging user experience! 💡🔥
