@@ -1,0 +1,49 @@
+.event-item {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  list-style-type: none;
+  width: 90%;
+  margin: 20px 12px;
+}
+
+@media (min-width: 992px) {
+  .event-item {
+    width: 45%;
+  }
+}
+
+.event-btn {
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.active {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
+
+.event-image {
+  width: 100%;
+  max-width: 460px;
+}
+
+.event-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  color: #f8fafc;
+  margin: 6px 0;
+}
+
+.event-location {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+  margin: 4px 0;
+}
